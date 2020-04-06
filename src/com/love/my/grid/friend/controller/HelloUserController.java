@@ -45,4 +45,9 @@ public class HelloUserController {
         return "helloUser";
     }
 
+    @RequestMapping(value = "/login")
+    public String loginSystem(){
+        return "login";
+    }
+
 }

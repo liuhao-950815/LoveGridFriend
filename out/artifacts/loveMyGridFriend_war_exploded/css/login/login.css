@@ -1,0 +1,17 @@
+#background{
+    width: 100%;
+}
+#loveTree{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+#loveForm{
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    background-color: #FFB6C1;
+    padding: 1%;
+}
