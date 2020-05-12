@@ -5,10 +5,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.servlet.ModelAndView;
-
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 
 @Controller
 public class HelloUserController {
@@ -47,7 +43,11 @@ public class HelloUserController {
 
     @RequestMapping(value = "/login")
     public String loginSystem(){
-        return "login";
+        return "/WEB-INF/login.html";
     }
 
+    @RequestMapping(value = "/CarouselImage")
+    public String CarouselImage(){
+        return "CarouselImage";
+    }
 }
