@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T07:00:36.887Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="6qFdESfJS5JWHCA9UURg" version="22.0.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-26T07:15:33.878Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="q-K92aEuhljUxrc8Irsy" version="22.0.8" type="github" pages="3">
   <diagram name="第 1 页" id="gbdyH_Z3zqyicG-8g1pX">
     <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1627" pageHeight="1269" math="0" shadow="0">
       <root>
@@ -397,6 +397,96 @@
         <mxCell id="RF693wdcVsqxj0u7d385-38" value="erp 付款单，通知 erp 网关更新 erp 付款单状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RF693wdcVsqxj0u7d385-37">
           <mxGeometry x="0.1827" y="-1" relative="1" as="geometry">
             <mxPoint x="-79" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="VGymgGLNYm_SK6TAbk_f" name="第 3 页">
+    <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1627" pageHeight="1269" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="W20FEWubDOEQ9EptLKeJ-1" value="发票系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="161" y="20" width="100" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="W20FEWubDOEQ9EptLKeJ-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#808080;" vertex="1" parent="W20FEWubDOEQ9EptLKeJ-1">
+          <mxGeometry x="45" y="90" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="W20FEWubDOEQ9EptLKeJ-3" value="提交纸质发票至财务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="100" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="W20FEWubDOEQ9EptLKeJ-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="W20FEWubDOEQ9EptLKeJ-3">
+          <mxGeometry x="45" y="90" width="10" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="W20FEWubDOEQ9EptLKeJ-5" value="凭证系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="421" y="20" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="W20FEWubDOEQ9EptLKeJ-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#808080;" vertex="1" parent="W20FEWubDOEQ9EptLKeJ-5">
+          <mxGeometry x="45" y="90" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="W20FEWubDOEQ9EptLKeJ-7" value="确认收票" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="301" y="20" width="100" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="W20FEWubDOEQ9EptLKeJ-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="W20FEWubDOEQ9EptLKeJ-7">
+          <mxGeometry x="45" y="90" width="10" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="W20FEWubDOEQ9EptLKeJ-9" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="89.5" y="150" as="sourcePoint" />
+            <mxPoint x="209.5" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W20FEWubDOEQ9EptLKeJ-10" value="变更发票关联状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W20FEWubDOEQ9EptLKeJ-9">
+          <mxGeometry x="0.175" y="-1" relative="1" as="geometry">
+            <mxPoint x="-9" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W20FEWubDOEQ9EptLKeJ-11" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="209.5" y="190" as="sourcePoint" />
+            <mxPoint x="89.5" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W20FEWubDOEQ9EptLKeJ-12" value="生成发票明细子表&lt;br&gt;生成进项税信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W20FEWubDOEQ9EptLKeJ-11">
+          <mxGeometry x="0.0583" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W20FEWubDOEQ9EptLKeJ-13" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" edge="1" parent="1" target="W20FEWubDOEQ9EptLKeJ-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90" y="280" as="sourcePoint" />
+            <mxPoint x="250" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W20FEWubDOEQ9EptLKeJ-18" value="流程扭转" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W20FEWubDOEQ9EptLKeJ-13">
+          <mxGeometry x="0.0979" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W20FEWubDOEQ9EptLKeJ-16" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" edge="1" parent="1" source="W20FEWubDOEQ9EptLKeJ-7" target="W20FEWubDOEQ9EptLKeJ-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="440" y="350" as="sourcePoint" />
+            <mxPoint x="600" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W20FEWubDOEQ9EptLKeJ-17" value="是否生成凭证为是&lt;br&gt;生成凭证系统" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W20FEWubDOEQ9EptLKeJ-16">
+          <mxGeometry x="0.175" y="2" relative="1" as="geometry">
+            <mxPoint x="-11" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W20FEWubDOEQ9EptLKeJ-19" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fillColor=#f8cecc;strokeColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="350.5" y="350" as="sourcePoint" />
+            <mxPoint x="89.5" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W20FEWubDOEQ9EptLKeJ-20" value="驳回释放发票关联状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W20FEWubDOEQ9EptLKeJ-19">
+          <mxGeometry x="-0.1916" y="2" relative="1" as="geometry">
+            <mxPoint x="-29" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
