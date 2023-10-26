@@ -1,0 +1,272 @@
+<mxfile host="app.diagrams.net" modified="2023-10-26T06:45:04.822Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="_LJ8DQNs7jY-MSeR-gNp" version="22.0.8" type="github">
+  <diagram name="第 1 页" id="gbdyH_Z3zqyicG-8g1pX">
+    <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1627" pageHeight="1269" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--18" value="发票系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="278" y="157" width="100" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#808080;" vertex="1" parent="xcE5qlOnaXAL3p91X_Q--18">
+          <mxGeometry x="45" y="90" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--20" value="流程中心" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="41" y="157" width="100" height="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;strokeColor=#FF0000;" edge="1" parent="xcE5qlOnaXAL3p91X_Q--20" source="xcE5qlOnaXAL3p91X_Q--21" target="xcE5qlOnaXAL3p91X_Q--20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-31" y="1025" />
+              <mxPoint x="-31" y="963" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--79" value="驳回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xcE5qlOnaXAL3p91X_Q--78">
+          <mxGeometry x="0.7287" y="-6" relative="1" as="geometry">
+            <mxPoint x="-38" y="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--21" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="xcE5qlOnaXAL3p91X_Q--20">
+          <mxGeometry x="45" y="90" width="10" height="940" as="geometry" />
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--29" value="提交流程" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" parent="xcE5qlOnaXAL3p91X_Q--20" source="xcE5qlOnaXAL3p91X_Q--21" target="xcE5qlOnaXAL3p91X_Q--21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="97" y="95" />
+              <mxPoint x="97" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;strokeColor=#FF0000;" edge="1" parent="xcE5qlOnaXAL3p91X_Q--20" source="xcE5qlOnaXAL3p91X_Q--21" target="xcE5qlOnaXAL3p91X_Q--21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="55" y="413" />
+              <mxPoint x="109" y="413" />
+              <mxPoint x="109" y="463" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--92" value="删除进项税子表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xcE5qlOnaXAL3p91X_Q--91">
+          <mxGeometry x="0.691" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--23" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="98" y="330" as="sourcePoint" />
+            <mxPoint x="323" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--24" value="发票是否齐全=是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xcE5qlOnaXAL3p91X_Q--23">
+          <mxGeometry x="0.1556" y="-3" relative="1" as="geometry">
+            <mxPoint x="-20" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--31" value="进项税系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="448" y="157" width="100" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--32" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#808080;" vertex="1" parent="xcE5qlOnaXAL3p91X_Q--31">
+          <mxGeometry x="45" y="90" width="10" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--35" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" edge="1" parent="1" source="xcE5qlOnaXAL3p91X_Q--21" target="xcE5qlOnaXAL3p91X_Q--32">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="98" y="500" as="sourcePoint" />
+            <mxPoint x="258" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="208" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--38" value="发票是否齐全等于是，调用进项税系统生成进项税信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xcE5qlOnaXAL3p91X_Q--35">
+          <mxGeometry x="0.1033" relative="1" as="geometry">
+            <mxPoint x="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--36" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="327.5" y="370" as="sourcePoint" />
+            <mxPoint x="90.5" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--37" value="生成发票明细子表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xcE5qlOnaXAL3p91X_Q--36">
+          <mxGeometry x="-0.2785" y="1" relative="1" as="geometry">
+            <mxPoint x="-34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--39" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="497.5" y="540" as="sourcePoint" />
+            <mxPoint x="90.5" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--40" value="插入进项税信息子表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xcE5qlOnaXAL3p91X_Q--39">
+          <mxGeometry x="-0.4029" y="-1" relative="1" as="geometry">
+            <mxPoint x="-67" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--41" value="合同系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="620" y="157" width="100" height="613" as="geometry" />
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--42" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#808080;" vertex="1" parent="xcE5qlOnaXAL3p91X_Q--41">
+          <mxGeometry x="45" y="90" width="10" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--51" value="预算系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="830" y="157" width="100" height="763" as="geometry" />
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--52" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#808080;" vertex="1" parent="xcE5qlOnaXAL3p91X_Q--51">
+          <mxGeometry x="45" y="90" width="10" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--55" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="96" y="860" as="sourcePoint" />
+            <mxPoint x="880" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--56" value="预占预算" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xcE5qlOnaXAL3p91X_Q--55">
+          <mxGeometry x="0.1228" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--57" value="" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90.5" y="710" as="sourcePoint" />
+            <mxPoint x="669.5" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--58" value="回写合同系统" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xcE5qlOnaXAL3p91X_Q--57">
+          <mxGeometry x="0.0933" y="-4" relative="1" as="geometry">
+            <mxPoint x="-57" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--59" value="费控系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1000" y="157" width="100" height="843" as="geometry" />
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--60" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#808080;" vertex="1" parent="xcE5qlOnaXAL3p91X_Q--59">
+          <mxGeometry x="45" y="90" width="10" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--64" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90" y="940" as="sourcePoint" />
+            <mxPoint x="1049" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--65" value="是否冲销借款为是，预占借款" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xcE5qlOnaXAL3p91X_Q--64">
+          <mxGeometry x="0.0448" y="-1" relative="1" as="geometry">
+            <mxPoint x="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--66" value="采购工作台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1150" y="157" width="100" height="940" as="geometry" />
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--67" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#808080;" vertex="1" parent="xcE5qlOnaXAL3p91X_Q--66">
+          <mxGeometry x="45" y="90" width="10" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--70" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90" y="1030" as="sourcePoint" />
+            <mxPoint x="1199" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--71" value="占用采购预算调用采购工作台" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xcE5qlOnaXAL3p91X_Q--70">
+          <mxGeometry x="-0.1181" y="-1" relative="1" as="geometry">
+            <mxPoint x="31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--72" value="ERP网关" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1320" y="157" width="100" height="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--73" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#808080;" vertex="1" parent="xcE5qlOnaXAL3p91X_Q--72">
+          <mxGeometry x="45" y="90" width="10" height="940" as="geometry" />
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--76" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90.00142857142845" y="1130" as="sourcePoint" />
+            <mxPoint x="1364.93" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--77" value="erp 付款单更新付款单状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xcE5qlOnaXAL3p91X_Q--76">
+          <mxGeometry x="0.1602" y="-4" relative="1" as="geometry">
+            <mxPoint x="-110" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--80" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fillColor=#f8cecc;strokeColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="96" y="1170.0000000000002" as="sourcePoint" />
+            <mxPoint x="1365" y="1170.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--81" value="ERP 付款单状态释放" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xcE5qlOnaXAL3p91X_Q--80">
+          <mxGeometry x="0.1764" relative="1" as="geometry">
+            <mxPoint x="-122" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--82" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;strokeColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90.07142857142844" y="1070" as="sourcePoint" />
+            <mxPoint x="1199.5" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--83" value="释放采购工作台" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xcE5qlOnaXAL3p91X_Q--82">
+          <mxGeometry x="0.055" y="-3" relative="1" as="geometry">
+            <mxPoint x="-76" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--84" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;fontColor=#d92020;fillColor=#fff2cc;strokeColor=#FF3333;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90.07142857142844" y="980" as="sourcePoint" />
+            <mxPoint x="1049.5" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--85" value="释放预占借款" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xcE5qlOnaXAL3p91X_Q--84">
+          <mxGeometry x="0.1276" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--86" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;strokeColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90.66666666666674" y="890" as="sourcePoint" />
+            <mxPoint x="879.5" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--87" value="释放预占预算" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xcE5qlOnaXAL3p91X_Q--86">
+          <mxGeometry x="0.1097" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--89" value="" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;strokeColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90.66666666666674" y="750" as="sourcePoint" />
+            <mxPoint x="669.5000000000002" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--90" value="释放合同状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xcE5qlOnaXAL3p91X_Q--89">
+          <mxGeometry x="0.4374" y="-2" relative="1" as="geometry">
+            <mxPoint x="-136" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--93" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;strokeColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="96" y="400" as="sourcePoint" />
+            <mxPoint x="327.5" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--94" value="释放发票关联状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xcE5qlOnaXAL3p91X_Q--93">
+          <mxGeometry x="0.1721" relative="1" as="geometry">
+            <mxPoint x="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--95" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;strokeColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="327.5" y="420" as="sourcePoint" />
+            <mxPoint x="90.66666666666674" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xcE5qlOnaXAL3p91X_Q--96" value="删除发票明细子表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xcE5qlOnaXAL3p91X_Q--95">
+          <mxGeometry x="-0.2822" y="-1" relative="1" as="geometry">
+            <mxPoint x="-32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
